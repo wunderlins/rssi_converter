@@ -17,7 +17,7 @@
 
 //int Chan1Interrupt = 0; // pin 2, ppm in
 
-unsigned long startPulse;
+volatile unsigned long startPulse = 0;
 volatile double val, val_last = 0;
 uint8_t a_out = 0;
 
