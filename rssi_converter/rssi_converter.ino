@@ -9,7 +9,7 @@
  * (c) 2014, Simon Wunderlin, <swunderlin()gmai1:com>
  */
 
-#define DEBUG
+//#define DEBUG
 #define PPM_MAX 2000
 #define PPM_MIN 1000
 #define ANALOG_OUT_PIN 3
